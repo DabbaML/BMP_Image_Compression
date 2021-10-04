@@ -37,12 +37,12 @@ public class Proj2Q2 extends JPanel {
 	
 	// Reference for converting color space from RGB to YUV and back
 	private double[][] conversionMatrix = {{0.299, 0.587, 0.114},
-										   {-0.299, -0.587, 0.886},
-										   {0.701, -0.587, -0.114}};
+					       {-0.299, -0.587, 0.886},
+					       {0.701, -0.587, -0.114}};
 	
 	private double[][] conversionMatrixInverse = {{1.0, 0, 1.0},
-												  {1.0, -0.194, -0.509},
-												  {1.0, 1.0, 0}};
+						      {1.0, -0.194, -0.509},
+						      {1.0, 1.0, 0}};
 										
 	
 	
